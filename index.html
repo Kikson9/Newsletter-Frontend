@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Newsletter Frontend | With Sign-up Form</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="left-container">
+        <h1>Stay updated!</h1>
+        <div class="h1p">
+          <p>
+            Join 60,000+ product managers receiving monthly <br />
+            updates on:
+          </p>
+        </div>
+
+        <div class="icon-text">
+          <img src="images/icon-list.svg" alt="icon-text" class="icons" />
+          <p>Product discovery and building what matters</p>
+        </div>
+        <div class="icon-text">
+          <img src="images/icon-list.svg" alt="icon-text" class="icons" />
+          <p>Measuring to ensure updates are a success</p>
+        </div>
+        <div class="icon-text">
+          <img src="images/icon-list.svg" alt="icon-text" class="icons" />
+          <p>And much more!</p>
+        </div>
+
+        <!-- -------- form starts -------- -->
+         
+        <form id="form">
+          <div class="form-control" id="form-control">
+            <label for="email"><b>Email address</b></label>
+            <input
+              class="email"
+              placeholder="email@company.com"
+              id="email-input"
+            />
+            <small id="small">Error Message</small>
+          </div>
+
+          <input type="submit" class="submit-btn" id="submit-btn" value="Subscribe to monthly newsletter">
+        </input>
+        </form>
+      </div>
+
+      <!-- --------- form ends --------- -->
+
+      <div class="right-container">
+        <img
+          src="images/illustration-sign-up-desktop.svg"
+          alt="illustration-sign-up-desktop"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

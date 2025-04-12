@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: hsl(234, 29%, 20%); 
+}
+
+.container {
+    display: flex;
+    background: hsl(0, 0%, 100%);
+    width: fit-content;
+    height: 640px;
+    padding: 20px 20px 20px 50px;
+    margin: 6rem -30rem 10rem 20rem;
+    position: absolute;
+    border-radius: 30px;
+    color: hsl(235, 18%, 26%);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: hsl(234, 29%, 20%);
+}
+
+
+.left-container {
+    padding-left: 30px;
+    padding-right: 70px;
+}
+
+.h1p {
+    padding-bottom: 20px;
+}
+
+.icons {
+    position: relative;
+    right: 24px;
+    bottom: -24px;
+}
+
+.icon-text {
+    margin-left: 20px;
+    margin-top: -7px;
+}
+
+.icon-text p {
+    padding-left: 10px;
+}
+
+.email {
+    display: block;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+input {
+    font-size: 16px;
+    border: 1px solid hsl(235, 18%, 26%);
+    color: hsl(235, 18%, 26%);
+}
+
+.submit-btn {
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 16px;
+    background: hsl(234, 29%, 20%);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(#FF6A3A, #FF527B);
+    
+}
+
+.form-control {
+    padding-top: 50px;
+    position: relative;
+}
+
+b {
+    display: block;
+    padding-bottom: 10px;
+    color: hsl(234, 29%, 20%);
+}
+
+::placeholder {
+    font-size: 15px;
+    color: hsl(235, 18%, 26%);
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+/* ------------------ error---------------- */
+.form-control {
+    position: relative;
+}
+
+.form-control small {
+    display: none;
+    position: absolute;
+    bottom: 60px;
+    right: 4px;
+    color: #FF527B;
+}
+
+.email-js {
+    border-color: #FF527B;
+}
+
+.email-js-2 {
+    border-color: hsl(154, 59%, 51%);
+}
