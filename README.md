@@ -1,5 +1,5 @@
 # Newsletter Signup Frontend
-This is a simple (but meaningful) little project I built as part of my ongoing JavaScript learning journey. It's a newsletter signup frontend built with just HTML, CSS, and JavaScript, and it was a fun way for me to apply the skills I've been picking up along the way.
+This is a simple (but meaningful) little project I built as part of my ongoing journey. It's a newsletter signup frontend built with just HTML, CSS, and JavaScript, and it was a fun way for me to apply the skills I've been picking up along the way.
 
 ## 🛠 What It Does
 - A clean, minimal signup form for a newsletter.
